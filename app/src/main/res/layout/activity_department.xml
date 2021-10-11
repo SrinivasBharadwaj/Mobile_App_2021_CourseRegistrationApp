@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Department">
+
+    <RadioGroup
+        android:id="@+id/RadioGroupDepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.060000002">
+
+        <RadioButton
+            android:id="@+id/radioButtonComputerScience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/computer_science" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSoftwaresystems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/software_info_systems" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBioInformatics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bio_informatics" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDataScience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/data_science" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonCancel"
+        style="@style/Theme.Registration"
+        android:layout_width="131dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#d3d3d3"
+        android:text="@string/cancel_button_dept"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDeptSelect"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RadioGroupDepartment"
+        app:layout_constraintVertical_bias="0.957" />
+
+    <Button
+        android:id="@+id/buttonDeptSelect"
+        style="@style/Theme.Registration"
+        android:layout_width="127dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#d3d3d3"
+        android:text="@string/select_button_dept"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RadioGroupDepartment"
+        app:layout_constraintVertical_bias="0.965" />
+</androidx.constraintlayout.widget.ConstraintLayout>

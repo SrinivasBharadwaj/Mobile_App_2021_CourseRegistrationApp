@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CourseRegistrationApp</string>
+    <string name="name_label">Name:</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="email_label">Email:</string>
+    <string name="id_label">ID:</string>
+    <string name="enter_id">Enter ID</string>
+    <string name="dept_label">Dept:</string>
+    <string name="select_label">Select</string>
+    <string name="submit_label">Submit</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="computer_science">Computer Science</string>
+    <string name="software_info_systems">Software Info. Systems</string>
+    <string name="bio_informatics">Bio Informatics</string>
+    <string name="data_science">Data Science</string>
+    <string name="cancel_button_dept">Cancel</string>
+    <string name="select_button_dept">Select</string>
+    <string name="name_profile">Name:</string>
+    <string name="email_profile">Email:</string>
+    <string name="id_profile">ID:</string>
+    <string name="dept_profile">Dept:</string>
+    <string name="name_result_profile">Name result</string>
+    <string name="email_result_profile">email result</string>
+    <string name="id_result_profile">ID result</string>
+</resources>
